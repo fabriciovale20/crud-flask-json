@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get JSON</title>
+</head>
+<body>
+<h1>Lista de Cadastro JSON</h1>
+<div class="lista">
+    {% for obj in dados %}
+        {{ obj.id }}.
+        {{ obj.nome }},
+        {{ obj.idade }} anos<br>
+    {% endfor %}
+</div>
+
+</body>
+</html>
